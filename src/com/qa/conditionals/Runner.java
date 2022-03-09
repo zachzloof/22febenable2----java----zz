@@ -20,8 +20,10 @@ public class Runner {
 
 		Tax game3 = new Tax();
 		//System.out.println(game3.methodOne());
-		System.out.println(game3.methodThree(50000));
+		//System.out.println(game3.methodThree(50000));
 		//System.out.println(game3.takeHome());
+		FizzBuzz game4 = new FizzBuzz();
+		System.out.println(game4.methodOne(15));
 	}
 
 }

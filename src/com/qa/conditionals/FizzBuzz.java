@@ -1,4 +1,4 @@
-package com.qa.fizzbuzz;
+package com.qa.conditionals;
 
 public class FizzBuzz {
 	public String methodOne(int input) {
