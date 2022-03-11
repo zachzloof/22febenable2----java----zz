@@ -10,7 +10,7 @@ public class Runner {
 //			System.out.println(object.methodOne(17500));
 			
 			CarBrandArrays myObj = new CarBrandArrays();
-			System.out.println(myObj.methodOne("ford"));
+			System.out.println(myObj.methodOne("aston martin"));
 	}
 
 }

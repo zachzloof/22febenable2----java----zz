@@ -13,6 +13,9 @@ public class CarBrandArrays {
 	List<String> ford = List.of("Fiesta", "Focus", "Focus RS", "GT", "Mondeo", "Mustang");
 	List<String> bentley = List.of("Continental GT", "Bentayga", "Mulsanne", "Flying spur", "Model S");
 	List<String> astonMartin = List.of("Vantage", "DB11", "DB10", "Vulcan", "DB9", "Rapide");
+	List<String> vauxhall = List.of("Corsa", "Insignia", "Astra", "Ampera", "Meriva", "Cascada");
+	List<String> volkswagen = List.of("Golf", "Polo", "Sirocco", "Passat", "Caddy", "Tiguan");
+	
 	
 	
 	
@@ -56,6 +59,16 @@ public class CarBrandArrays {
 		if (y == "Aston Martin" || y == "aston martin") {
 			for (int i = 0; i < astonMartin.size(); i++) {
 				System.out.println(astonMartin.get(i));
+			}
+		}
+		if (y == "Vauxhall" || y == "vauxhall") {
+			for (int i = 0; i < vauxhall.size(); i++) {
+				System.out.println(vauxhall.get(i));
+			}
+		}
+		if (y == "Volkswagen" || y == "volkswagen") {
+			for (int i = 0; i < volkswagen.size(); i++) {
+				System.out.println(volkswagen.get(i));
 			}
 		}
 		//At the end of each run, the method will ask the user to select another car brand,
