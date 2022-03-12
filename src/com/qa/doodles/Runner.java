@@ -8,9 +8,17 @@ public class Runner {
 		//and print out the result of the income that is inputted
 //			UKTaxConverter object = new UKTaxConverter();
 //			System.out.println(object.methodOne(17500));
-			
-			CarBrandArrays myObj = new CarBrandArrays();
-			System.out.println(myObj.methodOne("aston martin"));
+//			
+//			CarBrandArrays myObj = new CarBrandArrays();
+//			System.out.println(myObj.methodOne("aston martin"));
+		
+		MMADoodle mmaObject = new MMADoodle();
+		String input = "  MIDDLEWEIGHT  ";
+		int whichChampIndex = 8;
+		System.out.println(mmaObject.titleHistory(input));
+		System.out.println(mmaObject.divisionRecords(input));
+		System.out.println(mmaObject.indexChamp(input, whichChampIndex));
+		
 	}
 
 }
