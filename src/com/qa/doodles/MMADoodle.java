@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MMADoodle {
+	String championDivision;
 	List<String> flyweight  = Arrays.asList("Demetrious Johnson (Sept 2012-Aug 2018)",
 			"\nHenry Cejudo (Aug 2018-Feb 2020)",
 			"\nDeiveson Figueiredo (July 2020-June 2021)", 
@@ -138,6 +139,65 @@ public class MMADoodle {
 			"\nMost Takedowns Landed: 62 - Curtis Blaydes");
 	List<List <String>> divisions = Arrays.asList(flyweight, bantamweight, featherweight, lightweight,
 			welterweight, middleweight, lightHeavyweight, heavyweight);
+	
+	
+//public String fighter(String input) {
+//		input = input.strip();
+//		input = input.toLowerCase();
+//		System.out.println("Champion selected: " + input);
+//		for (String x : flyweight) {
+//			x = x.toLowerCase();
+//			if (x.startsWith("\n" + input)) {
+//			System.out.println("Flyweight");
+//			championDivision = "Flyweight";
+//			}}
+//		
+//		for (String x : bantamweight) {
+//			x = x.toLowerCase();
+//			if (x.startsWith("\n" + input)) {
+//			System.out.println("Bantamweight");
+//			championDivision = "Bantamweight";
+//			}}
+//		for (String x : featherweight) {
+//			x = x.toLowerCase();
+//			if (x.startsWith("\n" + input)) {
+//			System.out.println("Featherweight");
+//			championDivision = "Featherweight";
+//			}}
+//		for (String x : lightweight) {
+//			x = x.toLowerCase();
+//			if (x.startsWith("\n" + input)) {
+//			System.out.println("Lightweight");
+//			championDivision = "Lightweight";
+//			}}
+//		for (String x : welterweight) {
+//			x = x.toLowerCase();
+//			if (x.startsWith("\n" + input)) {
+//			System.out.println("Welterweight");
+//			championDivision = "Welterweight";
+//			}}
+//		for (String x : middleweight) {
+//			x = x.toLowerCase();
+//			if (x.startsWith("\n" + input)) {
+//			System.out.println("Middleweight");
+//			championDivision = "Middleweight";
+//			}}
+//		for (String x : lightHeavyweight) {
+//			x = x.toLowerCase();
+//			if (x.startsWith("\n" + input)) {
+//			System.out.println("Light Heavyweight");
+//			championDivision = "Light Heavyweight";
+//			}}
+//		for (String x : heavyweight) {
+//			x = x.toLowerCase();
+//			if (x.startsWith("\n" + input)) {
+//			System.out.println("Heavyweight");
+//			championDivision = "Heavyweight";
+//			}}
+//		
+//		return "----------------------------------------------------";
+//	}
+
 	public String titleHistory(String input) {
 		input= input.strip();
 		System.out.println("The history of the " + input +" division:");

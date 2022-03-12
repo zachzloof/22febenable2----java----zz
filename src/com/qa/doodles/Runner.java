@@ -13,11 +13,14 @@ public class Runner {
 //			System.out.println(myObj.methodOne("aston martin"));
 		
 		MMADoodle mmaObject = new MMADoodle();
-		String input = "  MIDDLEWEIGHT  ";
-		int whichChampIndex = 8;
+//		String champion = "s";
+		String input = "  middleweight  ";
+		int whichChampIndex = 1;
+//		System.out.println(mmaObject.fighter(champion));
 		System.out.println(mmaObject.titleHistory(input));
 		System.out.println(mmaObject.divisionRecords(input));
 		System.out.println(mmaObject.indexChamp(input, whichChampIndex));
+		
 		
 	}
 
