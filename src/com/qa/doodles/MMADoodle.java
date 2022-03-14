@@ -141,62 +141,55 @@ public class MMADoodle {
 			welterweight, middleweight, lightHeavyweight, heavyweight);
 	
 	
-//public String fighter(String input) {
-//		input = input.strip();
-//		input = input.toLowerCase();
-//		System.out.println("Champion selected: " + input);
-//		for (String x : flyweight) {
-//			x = x.toLowerCase();
-//			if (x.startsWith("\n" + input)) {
-//			System.out.println("Flyweight");
-//			championDivision = "Flyweight";
-//			}}
-//		
-//		for (String x : bantamweight) {
-//			x = x.toLowerCase();
-//			if (x.startsWith("\n" + input)) {
-//			System.out.println("Bantamweight");
-//			championDivision = "Bantamweight";
-//			}}
-//		for (String x : featherweight) {
-//			x = x.toLowerCase();
-//			if (x.startsWith("\n" + input)) {
-//			System.out.println("Featherweight");
-//			championDivision = "Featherweight";
-//			}}
-//		for (String x : lightweight) {
-//			x = x.toLowerCase();
-//			if (x.startsWith("\n" + input)) {
-//			System.out.println("Lightweight");
-//			championDivision = "Lightweight";
-//			}}
-//		for (String x : welterweight) {
-//			x = x.toLowerCase();
-//			if (x.startsWith("\n" + input)) {
-//			System.out.println("Welterweight");
-//			championDivision = "Welterweight";
-//			}}
-//		for (String x : middleweight) {
-//			x = x.toLowerCase();
-//			if (x.startsWith("\n" + input)) {
-//			System.out.println("Middleweight");
-//			championDivision = "Middleweight";
-//			}}
-//		for (String x : lightHeavyweight) {
-//			x = x.toLowerCase();
-//			if (x.startsWith("\n" + input)) {
-//			System.out.println("Light Heavyweight");
-//			championDivision = "Light Heavyweight";
-//			}}
-//		for (String x : heavyweight) {
-//			x = x.toLowerCase();
-//			if (x.startsWith("\n" + input)) {
-//			System.out.println("Heavyweight");
-//			championDivision = "Heavyweight";
-//			}}
-//		
-//		return "----------------------------------------------------";
-//	}
+public String fighter(String input) {
+		input = input.strip();
+		input = input.toLowerCase();
+		System.out.println("Champion selected: " + input);
+		for (String x : flyweight) {
+			x = x.toLowerCase();
+			if (x.startsWith("\n" + input)) {
+			championDivision = "Flyweight";
+			}}
+		
+		for (String x : bantamweight) {
+			x = x.toLowerCase();
+			if (x.startsWith("\n" + input)) {
+			championDivision = "Bantamweight";
+			}}
+		for (String x : featherweight) {
+			x = x.toLowerCase();
+			if (x.startsWith("\n" + input)) {
+			championDivision = "Featherweight";
+			}}
+		for (String x : lightweight) {
+			x = x.toLowerCase();
+			if (x.startsWith("\n" + input)) {
+			championDivision = "Lightweight";
+			}}
+		for (String x : welterweight) {
+			x = x.toLowerCase();
+			if (x.startsWith("\n" + input)) {
+			championDivision = "Welterweight";
+			}}
+		for (String x : middleweight) {
+			x = x.toLowerCase();
+			if (x.startsWith("\n" + input)) {
+			championDivision = "Middleweight";
+			}}
+		for (String x : lightHeavyweight) {
+			x = x.toLowerCase();
+			if (x.startsWith("\n" + input)) {
+			championDivision = "Light Heavyweight";
+			}}
+		for (String x : heavyweight) {
+			x = x.toLowerCase();
+			if (x.startsWith("\n" + input)) {
+			championDivision = "Heavyweight";
+			}}
+		System.out.println(championDivision);
+		
+		return "----------------------------------------------------";
+	}
 
 	public String titleHistory(String input) {
 		input= input.strip();
