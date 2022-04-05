@@ -1,5 +1,6 @@
 package com.qa.scanner;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Calculator {
@@ -9,6 +10,29 @@ public class Calculator {
 	
 	public void startApp() {
 		while (flag) {   //keeps program executing without crashing as the input is holding the loop from running amuk
+			
+
+			try {  // EXCEPTIONS LESSON TAKEN FROM SCANNER.CALCULATOR
+				System.out.println("Enter two integers");
+				int num1 = scanner.nextInt();
+				int num2 = scanner.nextInt();
+			} catch (InputMismatchException ime) { //CAN JUST PUT EXCEPTION AS PARENT CLASS	
+				System.out.println("Error please enter a number!");
+				scanner.nextLine();
+				continue;
+			} catch (Exception e) { //CAN HAVE MULTIPLE CATCHES, BUT EXCEPTION MUST GO LAST	
+				System.out.println("Error please enter a number!");
+				scanner.nextLine();
+				continue;
+			} finally { // ALWAYS RUNS
+				System.out.println("Finaaally");
+			}
+			
+			
+			
+			
+			
+			
 			System.out.println("What type of calculation would you like to perform?");
 			methodType = scanner.nextLine();
 			System.out.println("Enter your first number: ");

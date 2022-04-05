@@ -8,9 +8,9 @@ public class Runner {
 		// TODO Auto-generated method stub
 		//HOW TO INTRODUCE USER INPUT PROPERLY
 		//calculator below
-//		Calculator object = new Calculator();
-//		
-//		object.startApp();
+		Calculator object = new Calculator();
+		
+		object.startApp();
 		
 		
 		//Person excersize below
